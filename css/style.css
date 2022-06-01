@@ -10,6 +10,9 @@
 	flex-grow: 1;
 	padding: 50px 0px;
 }
+.main__services{
+	margin-bottom: 160px;
+}
 .services__container {
 	display: flex;
 	flex-direction: column;
@@ -104,10 +107,112 @@
 	text-transform: uppercase;
 	min-width: 130px;
 	font-size: 12px;
-	padding: 10px;
+	padding: 15px 30px;
 	text-align: center;
 	transition: 0.5s;
 }
 .button:hover{
 	background-color: #fb9694;
+}
+/* ============================================================================================================================ */
+.impact {
+	padding-top: 5px;
+	background-color: #29C3BE;
+}
+.main__impact{
+	margin-bottom: 120px;
+}
+.impact__container {
+	display: flex;
+	flex-direction: column;
+}
+.impact__top-block {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-bottom: 79px;
+	position: relative;
+}
+.impact__titles {
+	max-width: 430px;
+	padding-right: 15px;
+	position: relative;
+	z-index: 1;
+}
+.block-title__sub-title_white {
+	color: #fff;
+}
+.block-title__sub-title_white{
+	background: url('../img/impact/white_mark.svg') -3px -2px no-repeat;
+}
+.block-title__title_white {
+	color: #fff;
+}
+.blop{
+	position: absolute;
+	top: -5px;
+	right: 0%;
+	transform: translate(15%);
+	width: 70%;
+}
+.impact__img {
+	flex: 0 1 498px;
+	border-radius: 40px;
+	overflow: hidden;
+	margin-top: -7.6%;
+	position: relative;
+}
+.impact__items {
+	display: flex;
+	margin: 0px -15px;
+	row-gap: 24px;
+	flex-wrap: wrap;
+}
+.impact__items:not(:last-child){
+	margin-bottom: 120px;
+}
+.impact__item {
+	flex: 1 1 25%;
+	min-width: 237px;
+	padding: 0px 15px;
+	display: flex;
+	column-gap: 11px;
+	align-items: flex-start;
+}
+.impact__logo {
+	flex: 0 0 76px;
+}
+.impact__column {
+}
+.impact__value {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #FFFFFF;
+}
+.info {
+	font-weight: 700;
+	color: #5D62B5;
+}
+.impact__down {
+	margin-bottom: -75px;
+}
+.block-down {
+	background: #5D62B5;
+	border-radius: 20px;
+	padding: 44px 70px;
+	display: flex;
+	justify-content: space-between;
+	row-gap: 24px;
+	flex-wrap: wrap;
+}
+.block-down__text {
+	max-width: 530px;
+	padding-right: 15px;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 1.25;
+	color: #FFFFFF;
+}
+.block-down__button {
 }
